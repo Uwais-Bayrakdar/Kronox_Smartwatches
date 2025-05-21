@@ -1,0 +1,169 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+
+body {
+    width: 100%; 
+    height: fit-content;
+    background: linear-gradient(to bottom, #e9f0f9, #ffffff);
+}
+
+
+.nav-container {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.nav-container a {color: white; text-decoration: none;}
+
+header h1 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.header-container {
+    padding-top: 125px;
+    margin-bottom: 50px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1, .container2, .container3, .container4, .container5, .container6 {width: 100%; height: fit-content; margin-top: 20px;}
+
+.container1 {
+    padding-bottom: 60px;
+}
+
+
+.container1 h2 , .container2 h2, .container3 h2, .container4 h2, .container5 h2, .container6 h2 {font-size: 50px; margin-left: 200px; margin-top: 80px;}
+
+.container1 h3 {
+    font-size: 28px;
+    margin-left: 220px;
+    color: #333; 
+}
+
+.container1 img {
+    width: 500px;
+    height: 550px;
+    border-radius: 18%;
+}
+
+.container1 div {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: fit-content;
+}
+
+.container1 div img {margin-right: 300px;}
+
+.cards {display: flex; justify-content: space-evenly; align-content: space-evenly;}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    width: 450px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4, .card5, .card6 {margin-top: 30px;}
+
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img {width: 175px; height: 100px; border: 2px solid black; border-radius: 20%;} 
+
+.small-container3 {display: flex; justify-content: space-between;}
+
+.small-container3 img {width: 400px; height: 510px; margin-right: 400px; margin-top: -100px}
+
+.specs-text li {margin: 25px 0 25px 220px; font-size: 20px;}
+
+.gold-circular-watch, .white-squared-watch {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin: 30px 0;
+    width: 100%;
+    height: auto; 
+}
+
+.gold-circular-watch img, .white-squared-watch img {
+    width: 330px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.55);
+}
+
+.rev-cards {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rev-card1, .rev-card2, .rev-card3 {
+    border: 5px solid black; 
+    border-radius: 30%; 
+    width: 400px; 
+    height: 170px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.55);
+}
+
+.buying-cards {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.buying-card1 , .buying-card2 {
+    border: 4px solid black;
+    border-radius: 10%;
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buying-card1 img, .buying-card2 img {
+    width: 400px;
+    height: 510px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+.bottom-border-for-gold-watch {border: 2.4px solid black; width: 100%; margin-top: -4.8px;}
+
+.buy-watch-text {margin: 0px 10px;}
+
+.footer-container {
+    background: linear-gradient(white, grey, black);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+
+}
