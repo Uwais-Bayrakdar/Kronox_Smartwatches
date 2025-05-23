@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kronox Job Application Form</title>
+    <link rel="stylesheet" href="job-application.css">
+</head>
+<body>
+    <div class="go-home-box"><a href="index.html">Back to Home</a></div>
+    <header>
+        <h1>Job Application Form</h1>
+        <h3>Apply to join <span>Kronox smartwatches business</span> today</h3>
+    </header>
+    <main>
+        <div class="container">
+        <form action="thank-you.html" method="get">
+            <section class="Personal-Information">
+                <fieldset class="sect1">
+                    <legend>Personal Information</legend>
+                    <div class="top-to-bottom-box">
+                <label>Enter your full name: <input type="text" required></label>
+                <label>Enter your Email: <input type="email" required></label>
+                <label>Enter your Phone Number: <input type="number" required></label>
+                    </div>
+                </fieldset>
+            </section>
+            <section class="Position-Details">
+                <fieldset>
+                    <legend>Position Details</legend>
+                    <div class="top-to-bottom-box">
+                    <label>Choose your job title: <select style="margin-bottom: 10px;" id="job-title">
+                        <option value="uiux-designer">UI/UX Designer</option>
+                        <option value="hardware-engineer">Hardware Engineer</option>
+                        <option value="smartwatch-os-developer">Smartwatch OS Developer</option>
+                        <option value="product-strategist">Product Strategist</option>
+                        <option value="innovation-specialist">Innovation Specialist</option>
+                        <option value="brand-photographer">Brand Photographer</option>
+                        <option value="material-engineer">Material Engineer</option>
+                        <option value="watchmaker">Watchmaker</option>
+                        <option value="marketing-designer">Marketing Designer</option>
+                        <option value="embedded-systems-engineer">Embedded Systems Engineer</option>
+                    </select></label>
+                    <label>Experience Level:
+                        <div class="top-to-bottom-box">
+                        <label><input type="radio" name="Experience" value="junior"> Junior</label>
+                        <label><input type="radio" name="Experience" value="mid"> Mid</label>
+                        <label><input type="radio" name="Experience" value="senior"> Senior</label>
+                        </div>
+                    </label>
+                    </div>
+                </fieldset>
+            </section>
+            <section class="Skills">
+                <fieldset>
+                    <legend>Skills Aquired</legend>
+                    <div class="top-to-bottom-box">
+                        <label><input type="checkbox">Experience designing wearables</label>
+                        <label><input type="checkbox">Familiar with waterproofing techniques</label>
+                        <label><input type="checkbox">Knowledge of motion sensors or accelerometers</label>
+                        <label><input type="checkbox">Industrial design or 3D prototyping</label>
+                        <label><input type="checkbox">Familiarity with battery efficiency design</label>
+                        <label><input type="checkbox">Experience with embedded UI systems</label>
+                        <label><input type="checkbox">Prototyping with Figma or Adobe XD</label>
+                        <label><input type="checkbox">Fluent in smartwatch OS concepts</label>
+                        <label><input type="checkbox">Materials sourcing & sustainability</label>
+                    </div>
+                </fieldset>
+            </section>
+            <section class="Upload-Message">
+                <fieldset>
+                    <legend>Upload & Message</legend>
+                    <div class="top-to-bottom-box">
+                        <label style="margin-bottom: 20px;" class="make-title-top">Cover letter: <textarea rows="10" cols="50" required></textarea></label>
+                        <label>Your Resume File: <input type="file" required></label>
+                    </div>
+                </fieldset>
+            </section>
+            <section class="Submit">
+                <fieldset>
+                    <legend>Submit</legend>
+                    <button type="submit">Submit Request</button>
+                    <button type="reset">Reset Form</button>
+                </fieldset>
+            </section>
+        </form>
+        </div>
+    </main>
+</body>
+</html>
