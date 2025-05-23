@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #e9f0f9, #ffffff);
+        padding: 0;
+        margin: 0;
+    }
+
+    
+    a {
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    span {
+        background: linear-gradient(white, lightblue, rgb(94, 94, 255), darkblue, black);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .container {
+        width: 70%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        margin-top: -20px;
+        font-size: 22px;
+        font-weight:600;
+    }
+
+    textarea {
+        font-size: 17px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    @media (max-width: 839px) {
+        a {
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+        
+        p {
+            font-size: 14px;
+        }
+
+        textarea {
+            font-size: 10px;
+        }
+    }
+
+    @media (min-width: 840px) and (max-width: 1069px) {
+        a {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 31px;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+
+        textarea {
+            font-size: 14px;    
+        }
+    }
+
+</style>
+
+<body>
+    <a href="index.html" class="home-button">Back to Home</a>
+    <div class="container">
+    <h1>Your feedback <span>matters</span>.</h1>
+    <p>What should Kronox enhance or introduce next? Share your thoughts — we're always listening.</p>
+    <label for="feedback" style="display: none;">Your Feedback</label><textarea id="feedback" rows="23" cols="100" required></textarea>
+    <br>
+    <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
