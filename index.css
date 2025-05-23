@@ -93,6 +93,10 @@ header h1 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sa
 
 .small-container3 {display: flex; justify-content: space-between;}
 
+.container3 h2{
+  margin-bottom: 130px;
+}
+
 .small-container3 img {width: 400px; height: 510px; margin-right: 400px; margin-top: -100px}
 
 .specs-text li {margin: 25px 0 25px 220px; font-size: 20px;}
